@@ -1,0 +1,19 @@
+name: Freezer
+version: 1.0.0
+main: RTG\Freeze\FreezeEm
+api: [2.0.0, 2.1.0, 3.0.0]
+author: InspectorGadget
+commands:
+  freeze:
+    usage: "/freeze"
+    permission: freeze.player
+    description: "Freezes a Player!"
+  unfreeze:
+    usage: "/unfreeze"
+    permission: unfreeze.player
+    description: "Unfreezes a Player!"
+permissions:
+  freeze.player:
+    default: op
+  unfreeze.player:
+    default: op
